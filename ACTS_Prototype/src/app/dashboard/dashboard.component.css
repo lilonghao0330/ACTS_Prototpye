@@ -23,12 +23,26 @@ h3 {
 h4 {
   position: relative;
 }
-.crown{
-  width: 7%;
+.crown1{
+  width: 5%;
   height: auto;
   position: absolute;
-  left: 5%;
-  top: 50%;
+  left: 30%;
+  top: 35%;
+}
+.crown2{
+  width: 5%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+}
+.crown3{
+  width: 5%;
+  height: auto;
+  position: absolute;
+  left: 70%;
+  top: 35%;
 }
 .grid {
   margin: 0;
@@ -85,7 +99,7 @@ h4 {
   background-color: #EEE;
   margin: .5em;
   padding: .3em 0;
-  height: 1.6em;
+  height: 2.6em;
   border-radius: 4px;
 }
 
@@ -117,7 +131,8 @@ h4 {
   position: relative;
   left: -1px;
   top: -4px;
-  height: 1.8em;
+  width: 3em;
+  height: 3.2em;
   min-width: 16px;
   text-align: right;
   margin-right: .8em;
