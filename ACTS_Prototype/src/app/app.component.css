@@ -1,6 +1,7 @@
 /* AppComponent's private CSS styles */
 h1 {
-  font-size: 1.2em;
+  font-size: 5em;
+  text-align: center;
   color: #999;
   margin-bottom: 0;
 }
@@ -10,7 +11,8 @@ h2 {
   padding-top: 0;
 }
 nav a {
-  padding: 5px 10px;
+  font-size: 1.5em;
+  padding: 10px 20px;
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;

@@ -1,14 +1,14 @@
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
-  { id: 11, name: 'Mr. Nice' },
-  { id: 12, name: 'Narco' },
-  { id: 13, name: 'Bombasto' },
-  { id: 14, name: 'Celeritas' },
-  { id: 15, name: 'Magneta' },
-  { id: 16, name: 'RubberMan' },
-  { id: 17, name: 'Dynama' },
-  { id: 18, name: 'Dr IQ' },
-  { id: 19, name: 'Magma' },
-  { id: 20, name: 'Tornado' }
+  { id: 1, name: '新宿' },
+  { id: 2, name: '代々木' },
+  { id: 3, name: '原宿' },
+  { id: 4, name: '渋谷' },
+  { id: 5, name: '恵比寿' },
+  { id: 6, name: '目黒' },
+  { id: 7, name: '五反田' },
+  { id: 8, name: '大崎' },
+  { id: 9, name: '品川' },
+  { id: 10, name: '田町' }
 ];
