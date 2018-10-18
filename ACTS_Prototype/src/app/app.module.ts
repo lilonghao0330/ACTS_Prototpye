@@ -9,7 +9,7 @@ import { HeroesComponent }      from './heroes/heroes.component';
 import { MessagesComponent }    from './messages/messages.component';
 
 import { AppRoutingModule }     from './app-routing.module';
-import { RollselectComponent } from './rollselect/rollselect.component';
+import { RoleselectComponent } from './roleselect/roleselect.component';
 import { DataentryComponent } from './dataentry/dataentry.component';
 
 @NgModule({
@@ -24,7 +24,7 @@ import { DataentryComponent } from './dataentry/dataentry.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    RollselectComponent,
+    RoleselectComponent,
     DataentryComponent
   ],
   bootstrap: [ AppComponent ]

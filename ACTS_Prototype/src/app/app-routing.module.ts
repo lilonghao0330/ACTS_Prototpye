@@ -3,14 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { DashboardComponent }   from './dashboard/dashboard.component';
 import { HeroesComponent }      from './heroes/heroes.component';
-import { RollselectComponent }      from './rollselect/rollselect.component';
+import { RoleselectComponent }      from './roleselect/roleselect.component';
 import { DataentryComponent }      from './dataentry/dataentry.component';
 import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/roleselect', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'rollselect', component: RollselectComponent },
+  { path: 'roleselect', component: RoleselectComponent },
   { path: 'dataentry', component: DataentryComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'heroes', component: HeroesComponent }
